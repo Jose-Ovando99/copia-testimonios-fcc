@@ -12,7 +12,7 @@ function App() {
         imagen='three'
         cargo='Ingeniero de Software'
         empresa='Amazon'
-        testimonio='Da miedo cambiar de carrera. Solo gane la confianza de que podia programar trabajando a traves de los cientos de horas de lecciones gratuitas en freeCodeCamp. Dentro de un tiempo tuve un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambio mi vida.' />
+        testimonio={(<p>Da miedo cambiar de carrera. Solo gane la confianza de que podia programar trabajando a traves de los cientos de horas de lecciones gratuitas en freeCodeCamp. Dentro de un tiempo tuve un trabajo de seis cifras como ingeniero de software, <strong>freeCodeCamp</strong> cambio mi vida.</p>)} />
         <Testimonio
         nombre='Sarah Chima'
         pais='Nigeria'
